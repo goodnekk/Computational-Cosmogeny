@@ -39,3 +39,7 @@ I think we can probably do a whole lot better in the sections of Collecting and 
 - My notebook is stuck in a "page" model, where I can only ever start with a blank slate, not build on previous ideas without destroying the previous thoughts 
 	{af: this is very true, and the problem generally lies within the notebook format though (which is beautiful but for portability reasons it's *linear*);}
 	{mg: I've tried using index-cards as a way of re-ordering things before. Might be a good to re-try :)}
+
+
+## Meta
+{mg: what are we actually trying to do here? writing a text, having a [conversation](https://en.wikipedia.org/wiki/Conversation_theory), or [both](https://en.wikipedia.org/wiki/A_Thousand_Plateaus).}
