@@ -42,4 +42,4 @@ I think we can probably do a whole lot better in the sections of Collecting and 
 
 
 ## Meta
-{mg: what are we actually trying to do here? writing a text, having a [conversation](https://en.wikipedia.org/wiki/Conversation_theory), or [both](https://en.wikipedia.org/wiki/Dialogic), or [more](https://en.wikipedia.org/wiki/A_Thousand_Plateaus)}
+{mg: what are we actually trying to do here? [writing](http://www2.iath.virginia.edu/elab/hfl0250.html) a "text", having a [conversation](https://en.wikipedia.org/wiki/Conversation_theory), or [Dialog](https://en.wikipedia.org/wiki/Dialogic), or [more](https://en.wikipedia.org/wiki/A_Thousand_Plateaus)}
