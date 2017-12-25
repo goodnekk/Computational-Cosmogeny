@@ -26,7 +26,8 @@ Taking as an approach [Are.na](https://www.are.na), this note-taking app lets yo
 {{ making above section clearer or cut it and leave only Are.na's Flat ontology example }}
 
 ## filesystem
-
 As there are all these needs to create multiplicities of connection and thought configuration between elements, the idea of using 'real folders' in the file system is out of discussion (file alias won’t help much either, as there is no original position).
 
 Therefore, as I care also to let users browse their notes through the file system, the only thing that can work (at least so far), is to get rid of the hierarchical folder structure and put everything in one folder. Then use a JSON file as a database to store the states of each item.
+
+My suggestion would be to separate storage from structure. You could store every element in an unstructured storage (similar to `random access memory`). Then all the indexing, lists, collections and hierarchies are stored separately.
