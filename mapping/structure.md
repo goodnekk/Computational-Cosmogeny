@@ -19,3 +19,8 @@ Structure has usefull primitives such as: order, measure, metric, geometry and t
 - the database is a `json` file, which is mostly useful for searching, storing each object’s state (eg. connection with other objects) and filtering data, still each object stays on its own as a file in a big folder holding everything
 - tags exists as inline `#tag` in a text note, and as field for images, audio and video files, etc
 - are.na’s buckets exist in the form of filters and objects’s connection? translating this into the form of folders would fail pretty soon, so either we can use smart folders (cfr filters), or some sort of connection mechanism (maybe not only by drawing / connecting objects but also by the above inline `#tag` option
+
+## collections
+Taking as an approach [Are.na](https://www.are.na), this note-taking app lets you make `Collections`, where you can mix different materials together. What I'd like to add on top of this, is the chance to make connection also between items within a Collection (or `Block`, in Are.na's language). It is what has already been proposed as [Flat Ontology on Are.na](https://www.are.na/desmond-wong/flat-ontology-arena).
+
+{{ making above section clearer or cut it and leave only Are.na's Flat ontology example }}
