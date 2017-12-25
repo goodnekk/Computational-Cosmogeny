@@ -1,4 +1,14 @@
 ## structure
+The notion of structure is applicable and debatable in a lot of domains
+[architecture](https://www.archdaily.com/610531/frei-otto-and-the-importance-of-experimentation-in-architecture) [cosmology](https://en.wikipedia.org/wiki/List_of_largest_cosmic_structures)
+[physics](https://leanderherzog.ch/higgsboson/)
+[governance](http://www.jofreeman.com/joreen/tyranny.htm)
+[holarchy](https://en.wikipedia.org/wiki/Holarchy)
+[urbanism](http://en.bp.ntu.edu.tw/wp-content/uploads/2011/12/06-Alexander-A-city-is-not-a-tree.pdf)).
+[ecology]()
+
+Mathmatics can be seen as the study of [structure](https://en.wikipedia.org/wiki/Mathematical_structure) in the formal sense.
+Structure has usefull primitives such as: order, measure, metric, geometry and topology.
 
 - list view
 - spatial view
