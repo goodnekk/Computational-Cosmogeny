@@ -24,3 +24,9 @@ Structure has usefull primitives such as: order, measure, metric, geometry and t
 Taking as an approach [Are.na](https://www.are.na), this note-taking app lets you make `Collections`, where you can mix different materials together. What I'd like to add on top of this, is the chance to make connection also between items within a Collection (or `Block`, in Are.na's language). It is what has already been proposed as [Flat Ontology on Are.na](https://www.are.na/desmond-wong/flat-ontology-arena).
 
 {{ making above section clearer or cut it and leave only Are.na's Flat ontology example }}
+
+## filesystem
+
+As there are all these needs to create multiplicities of connection and thought configuration between elements, the idea of using 'real folders' in the file system is out of discussion (file alias won’t help much either, as there is no original position).
+
+Therefore, as I care also to let users browse their notes through the file system, the only thing that can work (at least so far), is to get rid of the hierarchical folder structure and put everything in one folder. Then use a JSON file as a database to store the states of each item.

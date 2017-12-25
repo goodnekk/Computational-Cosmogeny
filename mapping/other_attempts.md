@@ -1,0 +1,9 @@
+## other attempts
+
+An important design decision is to let a hybrid level of mixed interfaces. Files will still be files, that we drag and drop onto the app from our desktop, or that we will browse through when moving between folders (or... around the one big folder holding everything?). At the same time, the (web) interface will give us affordances to manipulate our objects, build views, etc.
+
+{{ nothing different from fully desktop GUI app, explain }}
+
+The only good example that we got after [The Mother of All Demos](https://en.m.wikipedia.org/wiki/The_Mother_of_All_Demos) is `emacs-org-mode`. Which is only partially able to compete with the above mentioned demo though. The only other attempt, as far as I know, to implement something similar to The Mother of all Demos was [Smalltalk](https://en.m.wikipedia.org/wiki/Smalltalk) — eg, drawing between two elements to create a direct relation between them. A recent example partially implementing this is [Tinderbox](https://en.m.wikipedia.org/wiki/Tinderbox_(application_software)). In this case though, it only works with text. We need also images, pdfs, ebooks, audio files, etc. Examples like the latest iteration of iOS' Notes (since iOS 9) where you can embed finger-made sketches, maps, audio recordings, etc, is really a nice example of what note-taking is all about and the potentialities of adding from different input sources to a new note. The problem arises once you start to get things out of it, beside the fact that the interface of Notes iOS is thought for an 8 yo kid, as friend told me. Imagine being able to add a text comment to a specific section of an audio file, or to leave a note about a particular section of text, or adding a finger-made sketch to a specific clip of a video file, etc.
+
+Things should be able to move from input and output back and forth, while retaining their "real" format, and using a very malleable interface like HTML, to put all this together.
