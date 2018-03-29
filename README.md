@@ -1,5 +1,7 @@
 # thinking app
 
+{{ name will be changed? }}
+
 ## preface
 
 This text serves as an introduction and overview to the project. See each subfolders for more extended and messy notes with other materials complementing them.
