@@ -1,4 +1,4 @@
-Computational Cosmogeny
+Computational Cosmogony
 =======================
 
 We are interested less in the cpu clock of beige boxes and more in stones' radioactivity as computation.
