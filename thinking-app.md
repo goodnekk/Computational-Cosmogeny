@@ -1,5 +1,11 @@
 # thinking app
 
+## preface
+
+This text serves as an introduction and overview to the project. See each subfolders for more extended and messy notes with other materials complementing them.
+
+Also: as of 2018-03-30 we are still re-organising this repo, so... you know it.
+
 ## intro
 
 We came to think that we need real hypertext to work proficiently and with different levels of degree in the complexity of our thinking.
