@@ -6,6 +6,8 @@ Lately, many `node.js` based (electron-based) p2p ‘desktop’ apps have shown 
 
 For example, [patchwork](https://github.com/ssbc/patchwork/blob/master/screenshot.jpg), an app for using the p2p gossip protocol [scuttlebutt](https://www.scuttlebutt.nz).
 
+Also, [this kind of ‘utilitarian’ interfaces](https://www.are.na/desmond-wong/alternative-web-ui-aesthetics) (which seems to have [an echo](https://mobile.twitter.com/search?q=utilitarian%20interfaces&src=typed_query)).
+
 These interfaces are a sort of evolution from the design of 90s button-heavy websites. Followed by faux texture-based early 2000s internet, to app-like ‘this is a 2.0 forum’ website, to graphic-design poster webpages (often constipated, often too sugary and euphoric of sleek-frivolous elements). 
 
 And now, after a brief passage of brutal-%%%, which for the most part was not! there is this new flow of finally understood 90s button-heavy interfaces: appreciated, dissected and redesigned.
