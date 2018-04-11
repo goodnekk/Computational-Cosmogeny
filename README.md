@@ -14,21 +14,21 @@ We came to think that we need real hypertext to work proficiently and with diffe
 
 And we feel that hypertext has not been really implemented so far (dare not to say it hasn't been explored though, HTML is very good and Xanadu is very beyond — and beyond any applicable use as well).
 
-The best you can get from a native OS app with a file system, is to link from within a text note to another text now — usually using a wiki-style syntax, eg `[[another document]]`.
+The best you can get from a native OS app with a file system, is to link from within a text note to another text — usually using a wiki-style syntax, eg `[[another document]]`.
 
 {{While this is nice, it shows how much contemporary personal computing has been stuck with the office-paper-folder metaphor: if you don't print it, it does not exists.}}{{ ?? }}
 
-{{Whenever you place a browser to link together different html documents, then one or more parts of the workflow suffer from sup-optimal tool (eg, collaborative writing). Whenever there is an effort to setup a really networked system, you suddenly get the feeling of being drawn back to use other piece of softwares outside that environment and move materials around by copy pasting, duplicating or moving files, and so forth.}}{{ turn this random into something — incomplete }}
+Whenever you place a browser to link together different html documents, then one or more parts of the workflow suffer from sup-optimal tool (eg, collaborative writing). Whenever there is an effort to setup a really networked system, you suddenly get the feeling of being drawn back to use other piece of software outside of that environment; moving materials around by copy pasting; duplicating or moving files; and so forth.
 
-{{Rather than building an entire workflow in the browser, we wonder if it's not more a matter of channelling one material to multiple outputs (which might not be its final outcome), and moreover, laying the whole workflow foundation upon a networking system that is made to work non-unilaterally, and instead infinitely collaboratively. For example, from an http-based client-server setup, to a dat peer-2-peer based setup.}}{{ also half-done paragraph }}
+Rather than building an entire workflow in the browser, we wonder how to set hybrid setups, where what we are working on can be manipulated and reviewed through different applications and interfaces. Moreover, we really want to lay the whole workflow foundation upon a networking system that is made to work non-unilaterally, and instead infinitely collaboratively. Peer-to-peer protocols are evolving fastly enough that it’s possible to ditch the central server that-sync-that-latest-state for all users working on the same doc altogether.
 
-All this to say that we have never felt our computing experience as really being networked, also when using file-sharing services like dropbox, or solid wiki software like MediaWiki. There is always a feeling that your are renting an office, or paying for an office, and the moment when you setup a LAN network everybody is like “this is not the internet!”. Exactly! It’s not, it’s the web. Big difference. It’s not capitalised. Please don’t bring up the Declaration of Independence of the Cyberspace.
+All this to say that we have never felt our computing experience as really being networked, also when using file-sharing services like Dropbox, or solid wiki software like MediaWiki. There is always a feeling that your are renting an office, or paying for an office, and the moment when you setup a LAN network everybody is like “this is not the internet!”. Exactly! It’s not, it’s the web. Big difference. It’s not capitalised. Please don’t bring up the Declaration of Independence of the Cyberspace either.
 
 {{What we’re gonna sketch out in the following text, is a note-taking and mind-mapping system, part of a larger experiment in building a wiki on top of the dat protocol.}}{{ this needs more and it was what I had in mind 5 months ago, now things have been changed and opened up in a way that it’s actually going to be possible to channel together different storage, rather than “building a personal wiki” }}
 
 ## web app
 
-This note-taking and mind-mapping app is first of all a web-app: beside the technologies upon which is it built, it makes use of web formats and concepts, such as {{ list what we had decided so far }}
+This app is going to be for the web as well as being web-based: beside the technologies upon which is it built, it makes use of web formats and concepts, such as {{ list what we had decided so far }}
 
 Making it an Electron app would be ideal in this case, at least as a first prototype iteration: `node.js` and {{`choo.js` are the two technologies going to be used to sketch it out. First of all because we need to build a proactive interface for the html pages we work with when using the app, and second because of JSON as a database format (see `plain/text`)}}{{ not decided yet }}. This in general can facilitate the output from html back to markdown and other more readable plain/text format (eg YAML), once you store the [AST](https://en.m.wikipedia.org/wiki/Abstract_syntax_tree) of a document. [CommonMark](http://commonmark.org) will take care of Markdown and dealing with AST operations. {{ could still be valid, and an essential point of the project is to build this... parser?? to create and convert nodes from different input etc }}
 
@@ -76,7 +76,7 @@ A difference from Are.na when working like this, is that if you think of the `sp
 
 {{What we want to implement here, is the option to have multiple files arrangements in a collection — in terms of connections, tagging, ordering, placing, etc — and keep each of these layers as a separate entry. This allows to have different combinations and share specifically one with some other users, without having to delete, or make a clone of the same files as a backup.}}{{ write better, are.na works like this but the interaction is tedious and feels more for contemplation of your blocks rather than by moving them around, connecting them in one go, etc }}
 
-## filesystem
+## file system
 
 As there are all these needs to create multiplicities of connection and thought configurations between elements, the idea of using 'real folders' in the file system is out of discussion (file alias won’t help much either, as there is no original position).
 
