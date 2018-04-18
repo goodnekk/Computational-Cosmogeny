@@ -104,22 +104,35 @@ Computers make relations by storing `symbolic representations`. Humans can visua
 
 ## structure
 
-### strutural isomorphism
+### distinctions
 
-### file system
+We propse a symbolic system for representing information structures based on `distinctions` and `composable behaviours`. The system recursively implements more advanced structures in itself. This gives a hierarchy of structures:
 
-As there are all these needs to create multiplicities of connection and thought configurations between elements, the idea of using 'real folders' in the file system is out of discussion (file alias won’t help much either, as there is no original position).
+- distinctions
+    - values, numbers, text
+- distinctions of distinctions
+    - group (unordered, multiple)
+    - set (unordered, unique)
+    - ordered-set (ordered, unique)
+    - list (ordered, multiple)
+    - tuple (orderd, unique, bounded)
+- distinctions of distinctions of distinctions:
+    - trees
+    - semi-lattice, rhizome, graphs, networks
+    - maps, structs, objects, tagging
+- distinctions of distinctions of distinctions of distinctions:
+    - matrix, grid, table
+    - classes, inheritence
+    - [patterns](http://web.utah.edu/stat/tom/tpwc.html)
 
-Therefore, as we care also to let users browse their notes through the file system, the only thing that can work (at least so far), is to get rid of the hierarchical folder structure and put everything in one folder. Then use a JSON file as a database to store the states of each item.
+We are strong beleivers in [Gall's law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law). This means the system should allow for what Alexander has [called](http://makingpermaculturestronger.net/christopher-alexanders-neglected-challenge-to-permaculture/) `Unfolding Wholeness` or `structure preserving transformations`. This is directly contrary to what we would normally do in programming; laying out a structure top-down as architecture. We beleive the system should support both ways of structuring activity, allowing the user to `think in both ways`.
 
-{{ replace this with the database module }}
+### values
 
-- list view
-- spatial view
- - draw connection between objects by drawing lines between them, circling over them, selecting and press buttons
-- every element is an object, eg: a text note, a drawing, an image, a map, etc
-- to embed rich media on a plain text file, we use iA Writer’s [transclusion syntax](https://github.com/iainc/Markdown-Content-Blocks): `/name-of-file.ext`
-- there is no editing and previewing panels? (could be a bad idea though)
-- the database is a `json` file, which is mostly useful for searching, storing each object’s state (eg. connection with other objects) and filtering data, still each object stays on its own as a file in a big folder holding everything
-- tags exists as inline `#tag` in a text note, and as field for images, audio and video files, etc
-- are.na’s buckets exist in the form of filters and objects’s connection? translating this into the form of folders would fail pretty soon, so either we can use smart folders (cfr filters), or some sort of connection mechanism (maybe not only by drawing / connecting objects but also by the above inline `#tag` option
+Values are stored not as computer-based types (int, float, string, etc) but as `distinctions` in a `dimension`. For example a date marks a certain period(not a point) in the continuous dimension time. A name is a distinctions in a discrete nominal dimension. This means the system implements conversions between formats for you.
+
+### mappings, processes, functions
+
+Lastly, actual computation is done in the form of mappings. Mappings transform structures into other structures by combining, transforming, filtering and reducing them. This is how we can begin to make views, because views are just mappings of symbolic structures onto visual structures. For example, we can implement a list view by simply mapping lists onto visual lists. We can implement a spatial view by taking a list and augmenting it with a positional information structure (x,y coördinates). Information is loosly coupled, meaning that it's very easy to make multiple alternative views of the same information.
+
+Mappings are themselves just structures, which means that mappings can recuresively map mappings. These become processes in time.
