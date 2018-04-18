@@ -62,25 +62,24 @@ Still, for certain features, we cannot do much but ask / wait for web browsers t
 
 ### views
 
-A note-taking app should lets you build views of different kind based on different parameters: tags, connections between elements, search terms, date, etc and combine the above in an usable way.
+#### escaping the paper metaphor
 
-What usually happens though, is that you get a list view / index of all your notes, and a single note view to display the content of each element. You can filter and search, but the view will still display the new list of elements in the same index modality. Take as example notational velocity.
+A lot of `desktop publishing` applications are built on the `skeuomorphic` idea of paper as a metaphor. We call this idea `magical paper`, because the idea is to invoke a form of `magical power` over the elements on the screen. It is very unconceivable for us to realise that not many attempts (successful at least) have been made to disentangle note taking from this paper document paradigm. Why not making it in a way that lets you choose how to see something, what exactly to see and what to filter out? Again, `emacs-org-mode` does this apparently very well. Most other applications get trapped in an idea of paper boundary that prevent them to move beyond a single object view.
 
-It is very unconceivable for us to realise that not many attempts (successful at least) have been made to disentangle a note taking app from the usual paper document paradigm. Why not making it in a way that lets you choose how to see something, what exactly to see and what to filter out? Again, `emacs-org-mode` does this apparently very well. Most other applications get trapped in an idea of paper boundary that prevent them to move beyond a single object view.
+An often undervalued option when working with any document is to use a multi-view setup where you open several views of the same file in order to focus on specific areas of it at the same time. The main UI in note taking apps is usually the classic three-pane layout adopted by many macOS built-in apps. While this often organises the material you are working with clearly and lets you browse through it decently, it betrays a certain kind of physical-metaphor heritage, wherein things are one-sided and can be seen only in a specific way.
 
-Their main limitations, is that they only work with text — no images, no audio, no video, etc.
+A note-taking app should let you build views of different kind based on different parameters: tags, connections between elements, search terms, date, etc and combine the above in an usable way.
 
-{{ abrupt change, missing an ending }}
+We propose a system of layered abstractions based on this `magical paper` metaphor where elements can change their "physical" properties in time.
+* `magical ink` (classic word processor): The screen represents a piece of paper, the elements or ink can change in time.
+* `magical paper` (websites): The screen a pieces of paper, the paper can move and change in time. Patterns of ink can change in time (stylesheets, filters).
+* `magical space`: The screen represents a space with pieces of paper (views). Patterns of paper can change in time.
 
-The mind-mapping part of this app, lets you draw direct connections between items visually, eg by drawing lines, circles, etc for real. These connections are being displayed when viewing a Collection in `spatial-mode` (a better name might come up later — cfr `index-mode`).
-
-An often undervalued option when working with any document, be it a text file, a pdf, or a drawing, is to use a multi-view setup where you open several views of the same file in order to focus on specific areas of it at the same time. This is often not required, but it comes in hand more than one think.
-
-Views on note-taking apps would be extremely useful for so many things, but the main UI is usually the classic three-pane layout adopted by many macOS built-in apps. While this often organises the material you are working with clearly and lets you browse through it decently, it betrays a certain kind of physical-metaphor heritage, wherein things are one-sided and can be seen only in a specific way.
+#### visual connections
 
 Introducing a `spatial-view` next to a traditional `index-view`, while integrating `multi-view` options to quickly build up tailored arrangements, greatly break away from current sub-standardised data-manipulation UI paradigms and would let users decide which level of granularity they need to work with their archives.
 
-### visual connections
+The mind-mapping part of this app, lets you draw direct connections between items visually, eg by drawing lines, circles, etc for real. These connections are being displayed when viewing a Collection in `spatial-mode` (a better name might come up later — cfr `index-mode`).
 
 {{Now, something handy to have to quickly start making connections between items, or to make a new collection, is being able to drag items from the list / index view and dropping them in the 'empty' single-item-view pane. Alternatively, you can simply select some items and click on the `spatial-view` to have those elements in the spatial view and start dragging them around, drawing connection between them, etc.}}{{ rewrite, confused }}
 
@@ -117,8 +116,6 @@ Another approach to sharing a note composed of different material is to run the 
 We still find it problematic though, the fact of sharing a note as an html file and therefore not letting the receiver modify and comment it. A nice option would be to let open html documents as markdown files. We wonder how difficult and edge-case it might be. Technically, you only care about the html tag structure, so after converting everything to plain text, you would replace html tags into markdown syntax, and that's it. Pretty sure it might not be so easy though. Put some pandoc in there. If there's something we care, is data conversion and reconversion and being able to shape it in innumerable ways to get only what you need.
 
 ### structure
-
-
 
 - list view
 - spatial view
