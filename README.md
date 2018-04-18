@@ -87,6 +87,16 @@ We propose a system of layered abstractions based on this `magical paper` metaph
 * `magical paper` (websites): The screen a pieces of paper, the paper can move and change in time. Patterns of ink can change in time (stylesheets, filters).
 * `magical space`: The screen represents a space with pieces of paper (views). Patterns of paper can change in time.
 
+#### escaping the clipboard
+
+The clipboard is one of the most powerfull yet poor points of interacting with current systems. It's comparable to picking up an object and putting it back down somewhere else. The clipboard allows us to restructure documents, copy elements and apply transformations on them, and move content between programs. All these actions could be improved significantly.
+
+- Visible state: the current clipboard doesn't visibly show what is 'on' it, nor is it possible to keep multiple elements on the board. Why not have an inventory type system, that is used in a lot of rpg- type games?
+
+- Allow transclusion, i.e. pointers, not only deep copies.
+
+- Alllow data to flow between environments, (piping).
+
 ### visual connections
 
 Introducing a `spatial-view` next to a traditional `index-view`, while integrating `multi-view` options to quickly build up tailored arrangements, greatly break away from current sub-standardised data-manipulation UI paradigms and would let users decide which level of granularity they need to work with their archives.
@@ -125,6 +135,10 @@ We propse a symbolic system for representing information structures based on `di
     - classes, inheritence
     - [patterns](http://web.utah.edu/stat/tom/tpwc.html)
 
+### transformations
+
+The user builds, or grows information structures by applying transformations to them. These transformations are an important part of the interface, because they replace our usual ways of interacting with the computer (i.e. the clipboard).
+
 We are strong beleivers in [Gall's law](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law). This means the system should allow for what Alexander has [called](http://makingpermaculturestronger.net/christopher-alexanders-neglected-challenge-to-permaculture/) `Unfolding Wholeness` or `structure preserving transformations`. This is directly contrary to what we would normally do in programming; laying out a structure top-down as architecture. We beleive the system should support both ways of structuring activity, allowing the user to `think in both ways`.
 
 ### values
@@ -133,6 +147,12 @@ Values are stored not as computer-based types (int, float, string, etc) but as `
 
 ### mappings, processes, functions
 
-Lastly, actual computation is done in the form of mappings. Mappings transform structures into other structures by combining, transforming, filtering and reducing them. This is how we can begin to make views, because views are just mappings of symbolic structures onto visual structures. For example, we can implement a list view by simply mapping lists onto visual lists. We can implement a spatial view by taking a list and augmenting it with a positional information structure (x,y coördinates). Information is loosly coupled, meaning that it's very easy to make multiple alternative views of the same information.
+Lastly, actual computation is done in the form of mappings. Mappings transform structures into other structures by combining, transforming, filtering and reducing them. This is how we can begin to make views, because views are just mappings of symbolic structures onto visual structures.
+
+For example, We can implement a spatial view by taking a list and augmenting it with positional information (x,y coördinates).
+
+We can implement a stylesheet, by taking a document tree, and augmenting it with style information.
+
+Information is loosly coupled (separation of concerns), and [subject oriented](https://en.wikipedia.org/wiki/Subject-oriented_programming). This makes it very easy to make multiple alternative views of the same information from different perspectives.
 
 Mappings are themselves just structures, which means that mappings can recuresively map mappings. These become processes in time.
