@@ -10,9 +10,12 @@ Also: as of 2018-03-30 we are still re-organising this repo, so... you know it.
 
 ## intro
 
-We came to think that we need real hypertext to work proficiently and with different levels of degree in the complexity of our thinking.
+We came to think that we need a general system for creating information structures to work proficiently and with different levels of degree in the complexity of our thinking. We came to realise that a lot of software tries to solve the same problem over and over again: organising information in different (collaborative) structures, transforming that information, and viewing that information in different ways. This abstract description encompasses anything from filesystemes, hypertext, excell, productivity and mind-mapping tools.
 
-And we feel that hypertext has not been really implemented so far (dare not to say it hasn't been explored though, HTML is very good and Xanadu is very beyond — and beyond any applicable use as well).
+This kind of activity is usually done by people called "programmers", but we think anyone should be able to deal with these more abstract structures. That's why we talk about "computation": the system should hold a middle ground between a programming language and a program. The system is not so much an "app" as more an open "environment". It should be expressive enough to allow a user to bend, adapt and extend the system to their own needs, but also opiniated enough to allow a novel user to use it easily.
+
+
+# hypertext
 
 The best you can get from a native OS app with a file system, is to link from within a text note to another text — usually using a wiki-style syntax, eg `[[another document]]`.
 
