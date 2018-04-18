@@ -48,7 +48,7 @@ Examples like the latest iteration of iOS' Notes (since iOS 9) where you can emb
 
 Taking as an approach [Are.na](https://www.are.na), this note-taking app lets you make `Collections`, where you can mix different materials together. What we’d like to add on top of this, is the chance to make connection also between items within a Collection (or `Block`, in Are.na's language). It is what has already been proposed as [Flat Ontology on Are.na itself](https://www.are.na/desmond-wong/flat-ontology-arena).
 
-### interface
+## interface
 
 An important design decision is to let a hybrid level of mixed interfaces. Files will still be files, that we drag and drop onto the app from our desktop, or that we will browse through when moving between folders (or... around the one big folder holding everything?). At the same time, the (web) interface will give us affordances to manipulate our objects, build views, etc.
 
@@ -60,7 +60,7 @@ Still, for certain features, we cannot do much but ask / wait for web browsers t
 
 
 
-## views
+### views
 
 A note-taking app should lets you build views of different kind based on different parameters: tags, connections between elements, search terms, date, etc and combine the above in an usable way.
 
@@ -80,15 +80,17 @@ Views on note-taking apps would be extremely useful for so many things, but the 
 
 Introducing a `spatial-view` next to a traditional `index-view`, while integrating `multi-view` options to quickly build up tailored arrangements, greatly break away from current sub-standardised data-manipulation UI paradigms and would let users decide which level of granularity they need to work with their archives.
 
-## visual connections
+### visual connections
 
 {{Now, something handy to have to quickly start making connections between items, or to make a new collection, is being able to drag items from the list / index view and dropping them in the 'empty' single-item-view pane. Alternatively, you can simply select some items and click on the `spatial-view` to have those elements in the spatial view and start dragging them around, drawing connection between them, etc.}}{{ rewrite, confused }}
 
 A difference from Are.na when working like this, is that if you think of the `space-view` as a canvas, you want to be able to sketch out multiple combinations of your elements, alas having a `layer` for each arrangement. In Are.na this would not really be possible, the closest thing may be creating different collections with the same items, or with some items out of the collection. Or re-arranging the order of the elements in the collection. But there is no way to draw direct connections between those items visually.
 
+Computers make relations by storing `symbolic representations`. Humans can visually process relations by `gestalt`. The system should support parsing implicit relations between elements that are for example close to each other.
+
 {{What we want to implement here, is the option to have multiple files arrangements in a collection — in terms of connections, tagging, ordering, placing, etc — and keep each of these layers as a separate entry. This allows to have different combinations and share specifically one with some other users, without having to delete, or make a clone of the same files as a backup.}}{{ write better, are.na works like this but the interaction is tedious and feels more for contemplation of your blocks rather than by moving them around, connecting them in one go, etc }}
 
-## file system
+### file system
 
 As there are all these needs to create multiplicities of connection and thought configurations between elements, the idea of using 'real folders' in the file system is out of discussion (file alias won’t help much either, as there is no original position).
 
@@ -96,9 +98,9 @@ Therefore, as we care also to let users browse their notes through the file syst
 
 {{ replace this with the database module }}
 
-## html
+### html
 
-`html` documents are actually the best way to store notes. As in, a finished, presentational, and collaborative format from which other users can start work on by converting them into markdown files, or by adding them in their app library and go in edit mode (eg drawing connection, adding images or other files). 
+`html` documents are actually the best way to store notes. As in, a finished, presentational, and collaborative format from which other users can start work on by converting them into markdown files, or by adding them in their app library and go in edit mode (eg drawing connection, adding images or other files).
 
 {{To do this though, each document should be self-embeddable and zero-dependant (I don't know what I am saying): somehow make it possible not to have broken links. Which means, you can base64 images (easily I think). Not sure you can do the same with video or audio files though. So what's the deal with that? `epub` has been developed to resolve this problem of asset dependancy, but it failed because it does not support all html and css and js (new) features. Would saving a webpage as web-archive solve this?
 
@@ -106,7 +108,7 @@ Apple Safari has its own archive format called [webarchive](https://en.m.wikiped
 
 {{As sketched out before, self-embeddable html files, or some web-archive format that upon opening would unzip all the files building up a note and put them in place in your library would be another way to approach this.}}{{ integrate this bit? }}
 
-## sharing
+### sharing
 
 Another approach to sharing a note composed of different material is to run the whole library on / as a `dat` archive. On a normal level your note collection is private. Once you want to share one note with someone else, upon link creation, the app checks for all the material composing that note (eg, all the `transclusion`-syntax links), and turn those items shareable as well.
 
@@ -114,7 +116,9 @@ Another approach to sharing a note composed of different material is to run the 
 
 We still find it problematic though, the fact of sharing a note as an html file and therefore not letting the receiver modify and comment it. A nice option would be to let open html documents as markdown files. We wonder how difficult and edge-case it might be. Technically, you only care about the html tag structure, so after converting everything to plain text, you would replace html tags into markdown syntax, and that's it. Pretty sure it might not be so easy though. Put some pandoc in there. If there's something we care, is data conversion and reconversion and being able to shape it in innumerable ways to get only what you need.
 
-## structure
+### structure
+
+
 
 - list view
 - spatial view
