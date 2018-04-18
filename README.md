@@ -26,11 +26,6 @@ All this to say that we have never felt our computing experience as really being
 
 {{What we’re gonna sketch out in the following text, is a note-taking and mind-mapping system, part of a larger experiment in building a wiki on top of the dat protocol.}}{{ this needs more and it was what I had in mind 5 months ago, now things have been changed and opened up in a way that it’s actually going to be possible to channel together different storage, rather than “building a personal wiki” }}
 
-## web app
-
-This app is going to be for the web as well as being web-based: beside the technologies upon which is it built, it makes use of web formats and concepts, such as {{ list what we had decided so far }}
-
-Making it an Electron app would be ideal in this case, at least as a first prototype iteration: `node.js` and {{`choo.js` are the two technologies going to be used to sketch it out. First of all because we need to build a proactive interface for the html pages we work with when using the app, and second because of JSON as a database format (see `plain/text`)}}{{ not decided yet }}. This in general can facilitate the output from html back to markdown and other more readable plain/text format (eg YAML), once you store the [AST](https://en.m.wikipedia.org/wiki/Abstract_syntax_tree) of a document. [CommonMark](http://commonmark.org) will take care of Markdown and dealing with AST operations. {{ could still be valid, and an essential point of the project is to build this... parser?? to create and convert nodes from different input etc }}
 
 ## interface
 
