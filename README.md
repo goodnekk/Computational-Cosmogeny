@@ -15,7 +15,13 @@ We came to think that we need a general system for creating information structur
 This kind of activity is usually done by people called "programmers", but we think anyone should be able to deal with these more abstract structures. That's why we talk about "computation": the system should hold a middle ground between a programming language and a program. The system is not so much an "app" as more an open "environment". It should be expressive enough to allow a user to bend, adapt and extend the system to their own needs, but also opiniated enough to allow a novel user to use it easily.
 
 
-# hypertext
+What we’re gonna sketch out in the following text, is a note-taking and mind-mapping system, part of a larger experiment in building (a computational engine??).
+
+## Existing systems
+
+In this section we analyse existing attempts. We disuss their limits and good parts.
+
+### hypertext
 
 The best you can get from a native OS app with a file system, is to link from within a text note to another text — usually using a wiki-style syntax, eg `[[another document]]`.
 
@@ -23,28 +29,36 @@ The best you can get from a native OS app with a file system, is to link from wi
 
 Whenever you place a browser to link together different html documents, then one or more parts of the workflow suffer from sup-optimal tool (eg, collaborative writing). Whenever there is an effort to setup a really networked system, you suddenly get the feeling of being drawn back to use other piece of software outside of that environment; moving materials around by copy pasting; duplicating or moving files; and so forth.
 
+### Networking and filesharing
+
 Rather than building an entire workflow in the browser, we wonder how to set hybrid setups, where what we are working on can be manipulated and reviewed through different applications and interfaces. Moreover, we really want to lay the whole workflow foundation upon a networking system that is made to work non-unilaterally, and instead infinitely collaboratively. Peer-to-peer protocols are evolving fastly enough that it’s possible to ditch the central server that-sync-that-latest-state for all users working on the same doc altogether.
 
 All this to say that we have never felt our computing experience as really being networked, also when using file-sharing services like Dropbox, or solid wiki software like MediaWiki. There is always a feeling that your are renting an office, or paying for an office, and the moment when you setup a LAN network everybody is like “this is not the internet!”. Exactly! It’s not, it’s the web. Big difference. It’s not capitalised. Please don’t bring up the Declaration of Independence of the Cyberspace either.
 
-{{What we’re gonna sketch out in the following text, is a note-taking and mind-mapping system, part of a larger experiment in building a wiki on top of the dat protocol.}}{{ this needs more and it was what I had in mind 5 months ago, now things have been changed and opened up in a way that it’s actually going to be possible to channel together different storage, rather than “building a personal wiki” }}
+### Note taking systemes
+
+~~The only good example that we got after [The Mother of All Demos](https://en.m.wikipedia.org/wiki/The_Mother_of_All_Demos) is `emacs-org-mode`. Which is only partially able to compete with the above mentioned demo though. The only other attempt, as far as I know, to implement something similar to The Mother of all Demos was [Smalltalk](https://en.m.wikipedia.org/wiki/Smalltalk) — eg, drawing between two elements to create a direct relation between them. A recent example partially implementing this is [Tinderbox](https://en.m.wikipedia.org/wiki/Tinderbox_(application_software)). In this case though, it only works with text. We need also images, pdfs, ebooks, audio files, etc.~~
+
+{{mg: This is all rather uninformed, smalltalk is not about "drawing connections", and saying that tinderbox "only uses text" is both not true, and completely beside the point. We should discuss and analyse here more the good ideas in these projects rather than flatly dissmiss them}}
+
+Examples like the latest iteration of iOS' Notes (since iOS 9) where you can embed finger-made sketches, maps, audio recordings, etc, is really a nice example of what note-taking is all about and the potentialities of adding from different input sources to a new note. The problem arises once you start to get things out of it — beside the fact that the interface of Notes iOS is thought for an 8 yo kid, as a friend told me. Imagine being able to add a text comment to a specific section of an audio file, or to leave a note about a particular section of text, or adding a finger-made sketch to a specific clip of a video file, etc. That is the kind of workflow that we aim for.
 
 
-## interface
+### collections
+
+Taking as an approach [Are.na](https://www.are.na), this note-taking app lets you make `Collections`, where you can mix different materials together. What we’d like to add on top of this, is the chance to make connection also between items within a Collection (or `Block`, in Are.na's language). It is what has already been proposed as [Flat Ontology on Are.na itself](https://www.are.na/desmond-wong/flat-ontology-arena).
+
+### interface
 
 An important design decision is to let a hybrid level of mixed interfaces. Files will still be files, that we drag and drop onto the app from our desktop, or that we will browse through when moving between folders (or... around the one big folder holding everything?). At the same time, the (web) interface will give us affordances to manipulate our objects, build views, etc.
 
 {{ nothing different from fully desktop GUI app, explain }}
 
-The only good example that we got after [The Mother of All Demos](https://en.m.wikipedia.org/wiki/The_Mother_of_All_Demos) is `emacs-org-mode`. Which is only partially able to compete with the above mentioned demo though. The only other attempt, as far as I know, to implement something similar to The Mother of all Demos was [Smalltalk](https://en.m.wikipedia.org/wiki/Smalltalk) — eg, drawing between two elements to create a direct relation between them. A recent example partially implementing this is [Tinderbox](https://en.m.wikipedia.org/wiki/Tinderbox_(application_software)). In this case though, it only works with text. We need also images, pdfs, ebooks, audio files, etc. Examples like the latest iteration of iOS' Notes (since iOS 9) where you can embed finger-made sketches, maps, audio recordings, etc, is really a nice example of what note-taking is all about and the potentialities of adding from different input sources to a new note. The problem arises once you start to get things out of it — beside the fact that the interface of Notes iOS is thought for an 8 yo kid, as a friend told me. Imagine being able to add a text comment to a specific section of an audio file, or to leave a note about a particular section of text, or adding a finger-made sketch to a specific clip of a video file, etc. That is the kind of workflow that we aim for.
-
 Things should be able to move from input and output back and forth, while retaining their "real" format. Using a very malleable interface like HTML, we can put most of this together.
 
 Still, for certain features, we cannot do much but ask / wait for web browsers to implement particular features.
 
-## collections
 
-Taking as an approach [Are.na](https://www.are.na), this note-taking app lets you make `Collections`, where you can mix different materials together. What we’d like to add on top of this, is the chance to make connection also between items within a Collection (or `Block`, in Are.na's language). It is what has already been proposed as [Flat Ontology on Are.na itself](https://www.are.na/desmond-wong/flat-ontology-arena).
 
 ## views
 
