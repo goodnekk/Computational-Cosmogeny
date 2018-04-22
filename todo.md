@@ -8,6 +8,7 @@ question: should we stick with github markdown or flirt with an org-file hosted 
 
 ## are.na channel
 
+- [ ] ... should we open another ad-hoc account for the project, organisation-like? they offer discount for non profit / educational projects
 - [ ] reorganise [are.na channel](https://www.are.na/andre-fincato/computational-cosmogony)
 	- [ ] sub-channels?
 	- [ ] mapping it as we are doing over here?
