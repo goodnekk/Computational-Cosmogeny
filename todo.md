@@ -9,9 +9,9 @@ question: should we stick with github markdown or flirt with an org-file hosted 
 ## are.na channel
 
 - [ ] ... should we open another ad-hoc account for the project, organisation-like? they offer discount for non profit / educational projects
-- [ ] reorganise [are.na channel](https://www.are.na/andre-fincato/computational-cosmogony)
-	- [ ] sub-channels?
-	- [ ] mapping it as we are doing over here?
+- [x] reorganise [are.na channel](https://www.are.na/andre-fincato/computational-cosmogony)
+	- [x] sub-channels?
+	- [x] mapping it as we are doing over here?
 
 ## main text
 
@@ -19,6 +19,23 @@ question: should we stick with github markdown or flirt with an org-file hosted 
 - [ ] add comments
 - [ ] open pull requests, etc
 - [ ] share it
+- [ ] add a document about naming / intentions
+
+## paper d(15-05-2018)
+
+- [ ] last paragraph could be better
+
+## h&d proposal d(10-05-2018)
+
+- [ ] come up with ideas for networking
+- [ ] estimate costs of pies?
+
+## tekken
+
+- [ ] output stringified AST
+- [ ] subtasks
+- [ ] filter AST
+- [ ] deadlines on headers?
 
 ## mapping
 
