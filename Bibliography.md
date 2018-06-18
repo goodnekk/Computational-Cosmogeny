@@ -23,6 +23,7 @@ Papers and books with short summaries
 ## Diagrams
 
 - [Statecharts: A visual formalism for complex systems](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)
+- [How easily understandable are complex multi-layered system maps](https://core.ac.uk/download/pdf/132316653.pdf) - A study on the usability of complex interactive diagrams. When it comes to multi-levelled complex system maps, users prefer to have the complete map presented on one big canvas instead of having individual pieces of the system separate, oversimplification and strict diagrammatic rules can hinder users in perceiving the information presented in a meaningful way.
 
 ## Systems
 
