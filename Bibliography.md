@@ -12,7 +12,7 @@ Papers and books with short summaries
 
 ## Structures
 
-- [A State of Art Survey on zz-structures](https://pdfs.semanticscholar.org/83a6/fd1e0e7fbcaa94291a35371bc0f303ab6f21.pdf?_ga=2.110854853.1305587070.1527691897-1693572663.1527691897)
+- [A State of Art Survey on zz-structures](https://pdfs.semanticscholar.org/83a6/fd1e0e7fbcaa94291a35371bc0f303ab6f21.pdf?_ga=2.110854853.1305587070.1527691897-1693572663.1527691897) - An overview of different applications and programming tools using zz-structures. Contains a large amount of references to other papers.
 - [glBIS: A Hypertext Tool for Exploratory Policy Discussion](http://csis.pace.edu/~marchese/CS835/Readings/p303-conklin_gibis.pdf)
 
 
