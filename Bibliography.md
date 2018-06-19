@@ -5,10 +5,11 @@ Papers and books with short summaries
 ## Metadesign
 
 - [Metadesign - Maturana](http://www.digitalcultures.org/Library/Maturana_Metadesign.pdf)
+- [Meta-design: A Framework for the Future of End-User Development](https://link.springer.com/chapter/10.1007/1-4020-5386-X_19) - Designing open systems, Design for evolution, merging design- and use-time, end-user development, turing tar pit, level of representation. Information and functionality represented in closed systems can never be complete because the world changes, new requirements emerge and people change their work practices over time. Developing environments that allow the “owners of problems” to create the solutions themselves at use time. Consumer-Designer Spectrum, migration path towards designer.
 
 ## Programming
 
-- [Subject-Oriented Programming (A Critique of Pure Objects)](http://ivizlab.sfu.ca/arya/Papers/SW/SOP.pdf) - Critiques the fact that objects in OO are a "universal" description of an entity, and proposes a system where objects have unique identifiers, but can have different properties for different subjects or observers.
+- [Subject-Oriented Programming (A Critique of Pure Objects)](http://ivizlab.sfu.ca/arya/Papers/SW/SOP.pdf) - Critiques the fact that objects in OO are a "universal" description of an entity, and proposes a system where objects have unique identifiers, but can have different properties for different subjects or observers. 
 
 ## Structures
 
@@ -32,4 +33,5 @@ Papers and books with short summaries
 
 ## Systems
 
-- [A Systems Literacy Manifesto](http://www.dubberly.com/articles/a-systems-literacy-manifesto.html) 
+- [A Systems Literacy Manifesto](http://www.dubberly.com/articles/a-systems-literacy-manifesto.html)
+- [An introduction to cybernetics](http://pespmc1.vub.ac.be/books/IntroCyb.pdf) - Some say it's the only real textbook on cybernetics
