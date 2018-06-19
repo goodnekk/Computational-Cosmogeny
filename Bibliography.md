@@ -25,7 +25,7 @@ Papers and books with short summaries
 - [Statecharts: A visual formalism for complex systems](http://www.inf.ed.ac.uk/teaching/courses/seoc/2005_2006/resources/statecharts.pdf)
 - [How easily understandable are complex multi-layered system maps](https://core.ac.uk/download/pdf/132316653.pdf) - A study on the usability of complex interactive diagrams. When it comes to multi-levelled complex system maps, users prefer to have the complete map presented on one big canvas instead of having individual pieces of the system separate, oversimplification and strict diagrammatic rules can hinder users in perceiving the information presented in a meaningful way.
 - [Giga-Mapping: Visualisation for complexity and systems thinking in design](http://docplayer.net/41530820-Giga-mapping-visualisation-for-complexity-and-systems-thinking-in-design.html) - Describes giga-mapping method. A giga-map needs in its first phases only to communicate to its creators. The GIGA-map is regarded as a design artefact itself. This nested design process has proven to be very efficient in getting at grips at a higher level of complexity. Another way that GIGA-maps might differ is in the fact that they should layer many types of information. Interrelated categorically separated information. Multi scalar approach, from the global scale down to small details. 
-
+- [Cartography Comparison, Google Maps & Apple Maps](https://www.justinobeirne.com/cartography-comparison) An in-depth comparison of the design decisions of maps.
 
 ## Systems
 
