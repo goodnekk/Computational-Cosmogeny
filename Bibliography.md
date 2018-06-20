@@ -35,3 +35,4 @@ Papers and books with short summaries
 
 - [A Systems Literacy Manifesto](http://www.dubberly.com/articles/a-systems-literacy-manifesto.html)
 - [An introduction to cybernetics](http://pespmc1.vub.ac.be/books/IntroCyb.pdf) - Some say it's the only real textbook on cybernetics
+- [The Systems View of Life: A Unifying Vision](https://www.goodreads.com/book/show/18554985-the-systems-view-of-life) - There is a fundamental unity to life, different living systems exhibit similar patterns of organization.
